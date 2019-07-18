@@ -1,0 +1,21 @@
+
+.firstView{
+    background-color: lightgrey;
+    height: 700px;
+    width: 100%;
+}
+.secondView{
+    background-color: darkgray;
+    height: 700px;
+    width: 100%;
+}
+.thirdView{
+    background-color: gray;
+    height: 700px;
+    width: 100%;
+}
+.fourthView{
+    background-color: black;
+    height: 700px;
+    width: 100%;
+}
