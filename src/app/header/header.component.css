@@ -1,20 +1,27 @@
-
-.mat-tab-group{
+.origin{
     width: 100%;
+    height: 100%;
+    overflow: hidden;
+}.cabecera{
+    width: 95%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+.mat-tab-group{
+    width: 80%;
     margin-bottom: 0%;
     padding-bottom: 0%;
-}
-.mat-toolbar{
-    background-color: white;
+    float: left;
 }
 .nombre{
     width: 20%;
-}
-.linea{
-    height: 1px;
-    margin-bottom: 12%;
-    border-top: 1px solid lightgrey;
+    float: left;
+    color: grey;
+    font: 500 35px/42px Roboto,"Helvetica Neue",sans-serif;
 }
 p{
-    color: grey;
+    margin: 0%;
 }

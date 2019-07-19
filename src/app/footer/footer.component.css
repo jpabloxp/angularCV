@@ -1,20 +1,53 @@
 
-.mat-tab-group{
-    width: 70%;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+.origin{
+    height: 400px;
 }
-.mat-toolbar{
-    background-color: white;
+.footer-elements{
+    margin: 5%;
 }
-.nombre{
-    width: 20%;
+.texto{
+    width: 25%;
+    float: left;
+    font-size: 36px;
 }
-.linea{
-    height: 1px;
-    margin-bottom: 12%;
-    border-top: 1px solid lightgrey;
+.miNombre{
+    margin-left: 20%;
+    margin-right: 10%;
+    font: 500 40px/32px Roboto,"Helvetica Neue",sans-serif;
+    color: grey;
+    float: left;
 }
-p{
+.miDireccion{
+    margin-left: 10%;
+    margin-right: 10%;
+    font: 500 25px/32px Roboto,"Helvetica Neue",sans-serif;
+    color: grey;
+    float: left;
+}
+mat-list{
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+    float: left;
+}
+.mat-list-item{
+    height: 100%;
+    font-size: 25px;
+}
+.material-icons{
+    color: darkgrey;
+    font-size: 40px;
+    float: left;
+    margin-top: 10%;
+}
+a{
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+    font: 500 25px/32px Roboto,"Helvetica Neue",sans-serif;
+
+}
+a:hover{
+    font-weight: lighter;
     color: grey;
 }

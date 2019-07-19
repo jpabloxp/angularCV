@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+/* Styles for tab labels */
+.mat-tab-label {
+    font-size: 20px;
+}
+
 /*
 @import './custom-theme.css';
 @include mat-core();
