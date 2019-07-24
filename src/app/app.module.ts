@@ -18,6 +18,8 @@ import { FormsModule } from '@angular/forms';
 import {MatTabsModule} from '@angular/material/tabs';
 import { FooterComponent } from './footer/footer.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
+import { WorkComponent } from './work/work.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     HeaderComponent,
     HomeComponent,
     FooterComponent,
-    ScrollTopComponent
+    ScrollTopComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +43,7 @@ import { ScrollTopComponent } from './scroll-top/scroll-top.component';
     MatFormFieldModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
