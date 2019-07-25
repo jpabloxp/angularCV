@@ -20,6 +20,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 import { WorkComponent } from './work/work.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AboutComponent } from './about/about.component';
+import { ResearchComponent } from './research/research.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { AppRoutingModule } from './app-routing.module';
     HomeComponent,
     FooterComponent,
     ScrollTopComponent,
-    WorkComponent
+    WorkComponent,
+    AboutComponent,
+    ResearchComponent
   ],
   imports: [
     BrowserModule,
