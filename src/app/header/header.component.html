@@ -6,13 +6,21 @@
         <p>Juan ROSSO</p>
       </div>
 
-      <mat-tab-group>
+      <nav mat-tab-nav-bar>
+        <a mat-tab-link routerLink="/home" routerLinkActive="active">Home</a>
+        <a mat-tab-link routerLink="/about" routerLinkActive="active">About</a>
+        <a mat-tab-link routerLink="/work" routerLinkActive="active">Work</a>
+        <a mat-tab-link routerLink="/research" routerLinkActive="active">Research</a>
+      </nav>
+
+<!--       <mat-tab-group>
 
         <mat-tab routerLink="/home" routerLinkActive="active" label="Home"></mat-tab>
         <mat-tab label="About"></mat-tab>
         <mat-tab routerLink="/work" routerLinkActive="active" label="Work"></mat-tab>
         <mat-tab label="Research"></mat-tab>
-      </mat-tab-group>
+      </mat-tab-group> -->
+
   </div>
 
 </div>

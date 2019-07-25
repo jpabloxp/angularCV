@@ -25,3 +25,9 @@
 p{
     margin: 0%;
 }
+a{
+    font: 500 25px/32px Roboto,"Helvetica Neue",sans-serif;
+}
+a:hover{
+    color: black;
+}
