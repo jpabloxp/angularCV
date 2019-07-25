@@ -18,25 +18,25 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
-    data: {animation: 'home'},
+    data: {label: 'home', animation: 'home'},
   },
   //{ path: '', redirectTo: '/home', pathMatch: 'full' },
   {
     path: 'about',
     component: AboutComponent,
-    data: {animation: 'about'},
+    data: {label: 'about', animation: 'about'},
   },
   //{ path: '', redirectTo: '/work', pathMatch: 'full' },
   {
     path: 'work',
     component: WorkComponent,
-    data: {animation: 'work'},
+    data: {label: 'work', animation: 'work'},
   },
   //{ path: '', redirectTo: '/home', pathMatch: 'full' },
   {
     path: 'research',
     component: ResearchComponent,
-    data: {animation: 'research'},
+    data: {label: 'research', animation: 'research'},
   },
   //{ path: '', redirectTo: '/header', pathMatch: 'full' },
   {
@@ -53,6 +53,7 @@ const routes: Routes = [
     path: 'scrolltop',
     component: ScrollTopComponent,
   },
+  { path: '**', redirectTo: 'home' },
 
 ];
 

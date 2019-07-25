@@ -7,19 +7,14 @@
       </div>
 
       <nav mat-tab-nav-bar>
-        <a mat-tab-link routerLink="/home" routerLinkActive="active">Home</a>
-        <a mat-tab-link routerLink="/about" routerLinkActive="active">About</a>
-        <a mat-tab-link routerLink="/work" routerLinkActive="active">Work</a>
-        <a mat-tab-link routerLink="/research" routerLinkActive="active">Research</a>
+        <a *ngFor="let link of navLinks" mat-tab-link
+          #rla="routerLinkActive"
+          [active]="isViewInitialized && isLinkActive(rla)"
+          [routerLink]="link.path"
+          routerLinkActive>
+          {{link.label}}
+        </a>
       </nav>
-
-<!--       <mat-tab-group>
-
-        <mat-tab routerLink="/home" routerLinkActive="active" label="Home"></mat-tab>
-        <mat-tab label="About"></mat-tab>
-        <mat-tab routerLink="/work" routerLinkActive="active" label="Work"></mat-tab>
-        <mat-tab label="Research"></mat-tab>
-      </mat-tab-group> -->
 
   </div>
 
