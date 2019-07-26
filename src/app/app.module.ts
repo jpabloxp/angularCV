@@ -22,7 +22,6 @@ import { WorkComponent } from './work/work.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { ResearchComponent } from './research/research.component';
-import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -48,16 +47,7 @@ import { RouterModule } from '@angular/router';
     MatFormFieldModule,
     BrowserAnimationsModule,
     MatTabsModule,
-    AppRoutingModule,
-    RouterModule.forChild([
-      { path: '', component: AppComponent, children: [
-        { path: 'home', component: HomeComponent, data: { label: 'Home' } },
-        { path: 'about', component: AboutComponent, data: { label: 'About' } },
-        { path: 'work', component: WorkComponent, data: { label: 'Work' } },
-        { path: 'research', component: ResearchComponent, data: { label: 'Research' } }
-      ] }
-    ]),
-    
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

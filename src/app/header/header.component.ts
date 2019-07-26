@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import { ActivatedRoute, Router, RouterLinkActive, Routes } from '@angular/router';
+import { Router, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -36,6 +36,7 @@ export class HeaderComponent implements OnInit {
     ];
   }
 
+  // tslint:disable-next-line: use-lifecycle-interface
   ngAfterViewInit() {
     this.isViewInitialized = true;
     this.changeDetector.detectChanges();
