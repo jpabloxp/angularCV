@@ -1,7 +1,6 @@
 
 .firstView{
     background-color: lightgrey;
-    height: 600px;
     width: 70%;
     
     padding-top: 5%;
@@ -11,7 +10,6 @@
 }
 .secondView{
     background-color: darkgray;
-    height: 650px;
     width: 70%;
     
     padding-top: 10%;
@@ -21,30 +19,27 @@
 }
 .thirdView{
     background-color: gray;
-    height: 650px;
     width: 70%;
     
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
 }
 .fourthView{
     background-color: black;
-    height: 650px;
     width: 70%;
     
     padding-top: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     padding-left: 15%;
     padding-right: 15%;
 }
 .workView{
     background-color: white;
-    height: 1500px;
     width: 70%;
     
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
@@ -52,15 +47,14 @@
 
 .centeredInfo{
 
-    height: 100%;
-    width: 100%;
+    overflow: hidden;
 }
 .info1{
     width: 100%;
-    height: 30%;
+    margin-bottom: 5%;
     
     color: white;
-    font: 500 95px/102px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 6vw Roboto,"Helvetica Neue",sans-serif;
 }
 .info2{
     width: 100%;
@@ -75,10 +69,17 @@
     margin-top: 5%;
     margin-bottom: 5%;
 
-    height: 15%;
     width: 100%;
+    
+    overflow: hidden;
 }
 
+.centeredInfo-row-skills{
+    margin-bottom: 5%;
+    width: 100%;
+
+    overflow: hidden;
+}
 .centeredInfo-title{
     
     border-bottom: 1px solid white;
@@ -87,12 +88,12 @@
     height: 20%;
     
     color: white;
-    font: 100 75px/82px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 6vw Roboto,"Helvetica Neue",sans-serif;
 }
 .centeredInfo-box{
-
     width: 100%;
-    height: 80%;
+
+    overflow: hidden;
 }
 .box-column{
 
@@ -120,7 +121,7 @@ i{
     text-align: center;
     
     color: whitesmoke;   
-    font: 500 35px/42px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 2.5vw Roboto,"Helvetica Neue",sans-serif;
 }
 .box-column-text{
     
@@ -136,7 +137,7 @@ i{
     text-align: center;
     
     color: lightgrey;
-    font: 100 20px/25px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1.3vw Roboto,"Helvetica Neue",sans-serif;
 }
 
 .inlineInfo-title{
@@ -145,37 +146,35 @@ i{
 
     float: left;
     width: 29%;
-    height: 100%;
 }
 .inlineInfo-title-position{
     color: black;
-    font: 700 45px/52px Roboto,"Helvetica Neue",sans-serif;
+    font: 700 3vw Roboto,"Helvetica Neue",sans-serif;
 }
 .inlineInfo-title-company{
     color: black;
-    font: 300 35px/40px Roboto,"Helvetica Neue",sans-serif;
+    font: 300 2vw Roboto,"Helvetica Neue",sans-serif;
 }
 .inlineInfo-title-location{
     margin-top: 15%;
 
     color: darkgrey;
-    font: 100 20px/25px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1.3vw Roboto,"Helvetica Neue",sans-serif;
 }
 .inlineInfo-title-dates{
     color: darkgrey;
-    font: 100 20px/25px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1.3vw Roboto,"Helvetica Neue",sans-serif;
 }
 .inlineInfo-box{
 
     float: left;
     width: 70%;
-    height: 100%;
 }
 .inlineInfo-box-text{
     margin-left: 5%;
 
     color: black;
-    font: 100 25px/32px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1.5vw Roboto,"Helvetica Neue",sans-serif;
 }
 .box-row{
     

@@ -10,7 +10,6 @@
 }
 .secondView{
     background-color: darkgray;
-    height: 650px;
     width: 70%;
     
     padding-top: 10%;
@@ -20,7 +19,6 @@
 }
 .thirdView{
     background-color: gray;
-    height: 650px;
     width: 70%;
     
     padding-top: 10%;
@@ -30,10 +28,9 @@
 }
 .fourthView{
     background-color: black;
-    height: 650px;
     width: 70%;
     
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
@@ -56,10 +53,10 @@
 .info1{
     width: 100%;
     
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     
     color: white;
-    font: 500 95px/102px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 6vw Roboto,"Helvetica Neue",sans-serif;
 }
 .info2{
     width: 100%;
@@ -82,12 +79,12 @@
     
     border-bottom: 1px solid white;
     padding-bottom: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
     width: 100%;
     
     color: white;
-    font: 100 75px/82px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 6vw Roboto,"Helvetica Neue",sans-serif;
 }
 .centeredInfo-box{
 
@@ -118,7 +115,7 @@ i{
     text-align: center;
     
     color: dimgrey;   
-    font: 500 35px/42px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 2.5vw Roboto,"Helvetica Neue",sans-serif;
 }
 .box-column-text{
     
@@ -134,7 +131,7 @@ i{
     text-align: center;
     
     color: white;
-    font: 100 20px/25px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1.3vw Roboto,"Helvetica Neue",sans-serif;
 }
 
 .inlineInfo-box{
@@ -148,19 +145,19 @@ i{
     margin-left: 5%;
 
     color: black;
-    font: 100 25px/32px Roboto,"Helvetica Neue",sans-serif;
+    font: 200 1.5vw Roboto,"Helvetica Neue",sans-serif;
 }
 .inlineInfo-box-conference{
     margin-left: 5%;
 
     color: grey;
-    font: 500 20px/25px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 1.2vw Roboto,"Helvetica Neue",sans-serif;
 }
 .inlineInfo-box-link{
     margin-left: 5%;
 
     color: black;
-    font: 100 15px/20px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1vw Roboto,"Helvetica Neue",sans-serif;
 }
 .box-row{
     

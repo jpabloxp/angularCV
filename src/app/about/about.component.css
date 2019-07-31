@@ -1,7 +1,6 @@
 
 .firstView{
     background-color: lightgrey;
-    height: 600px;
     width: 70%;
     
     padding-top: 5%;
@@ -11,10 +10,9 @@
 }
 .secondView{
     background-color: darkgray;
-    height: 650px;
     width: 70%;
     
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 15%;
     padding-right: 15%;
@@ -32,7 +30,6 @@
 }
 .fourthView{
     background-color: black;
-    height: 650px;
     width: 70%;
     
     padding-top: 10%;
@@ -58,10 +55,10 @@
 .info1{
     width: 100%;
     
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     
     color: white;
-    font: 500 95px/102px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 6vw Roboto,"Helvetica Neue",sans-serif;
 }
 .info2{
     width: 100%;
@@ -106,7 +103,7 @@
     width: 100%;
     
     color: black;
-    font: 500 75px/82px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 6vw Roboto,"Helvetica Neue",sans-serif;
 }
 .centeredInfo-box{
 
@@ -119,7 +116,7 @@
 .centeredInfo-box-text{
 
     color: grey;
-    font: 100 45px/52px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 3.5vw Roboto,"Helvetica Neue",sans-serif;
 }
 
 .box-education-title{
@@ -127,14 +124,14 @@
     width: 100%;
     
     color: black;
-    font: 500 55px/62px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 3.3vw Roboto,"Helvetica Neue",sans-serif;
 }
 .box-education-location{
     
     width: 100%;
     
     color: black;
-    font: 100 45px/50px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 2.5vw Roboto,"Helvetica Neue",sans-serif;
 }
 .box-education-text{
     
@@ -144,7 +141,7 @@
     width: 100%;
     
     color: grey;
-    font: 100 35px/42px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 2.2vw Roboto,"Helvetica Neue",sans-serif;
 }
 
 .information-row{
@@ -165,7 +162,7 @@
     float: left;
     
     color: black;
-    font: 100 45px/50px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 3.3vw Roboto,"Helvetica Neue",sans-serif;
 }
 .information-row-text{
 
@@ -175,15 +172,15 @@
     float: left;
     
     color: grey;
-    font: 100 45px/50px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 2.9vw Roboto,"Helvetica Neue",sans-serif;
 }
 
 .box-column{
 
     float: left;
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 27%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 29%;
     height: 100%;
 }
 .box-column-icon{
@@ -204,7 +201,7 @@ i{
     text-align: center;
     
     color: whitesmoke;   
-    font: 500 35px/42px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 2.8vw Roboto,"Helvetica Neue",sans-serif;
 }
 .box-column-text{
     
@@ -220,7 +217,7 @@ i{
     text-align: center;
     
     color: lightgrey;
-    font: 100 20px/25px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1.6vw Roboto,"Helvetica Neue",sans-serif;
 }
 
 .inlineInfo-title{

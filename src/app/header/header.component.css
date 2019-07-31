@@ -20,13 +20,13 @@
     width: 20%;
     float: left;
     color: grey;
-    font: 500 35px/42px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 2.5vw Roboto,"Helvetica Neue",sans-serif;
 }
 p{
     margin: 0%;
 }
 a{
-    font: 500 25px/32px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 2vw Roboto,"Helvetica Neue",sans-serif;
 }
 a:hover{
     color: black;

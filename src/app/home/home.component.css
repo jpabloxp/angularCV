@@ -1,7 +1,6 @@
 
 .firstView{
     background-color: lightgrey;
-    height: 600px;
     width: 70%;
     
     padding-top: 5%;
@@ -11,7 +10,6 @@
 }
 .secondView{
     background-color: darkgray;
-    height: 650px;
     width: 70%;
     
     padding-top: 10%;
@@ -21,7 +19,6 @@
 }
 .thirdView{
     background-color: gray;
-    height: 650px;
     width: 70%;
     
     padding-top: 10%;
@@ -31,7 +28,6 @@
 }
 .fourthView{
     background-color: black;
-    height: 650px;
     width: 70%;
     
     padding-top: 10%;
@@ -41,16 +37,16 @@
 }
 
 .centeredInfo{
-
-    height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 .info1{
     width: 100%;
-    height: 30%;
+    
+    margin-bottom: 5%;
     
     color: grey;
-    font: 500 95px/102px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 6vw Roboto,"Helvetica Neue",sans-serif;
 }
 .info2{
     width: 100%;
@@ -68,7 +64,7 @@
     height: 20%;
     
     color: white;
-    font: 100 75px/82px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 6vw Roboto,"Helvetica Neue",sans-serif;
 }
 .centeredInfo-box{
 
@@ -101,7 +97,7 @@ i{
     text-align: center;
     
     color: whitesmoke;   
-    font: 500 35px/42px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 2.5vw Roboto,"Helvetica Neue",sans-serif;
 }
 .box-column-text{
     
@@ -109,7 +105,7 @@ i{
     text-align: center;
     
     color: dimgray;
-    font: 100 20px/25px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1.3vw Roboto,"Helvetica Neue",sans-serif;
 }
 .box-column-text-science{
     
@@ -117,30 +113,34 @@ i{
     text-align: center;
     
     color: lightgrey;
-    font: 100 20px/25px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1.3vw Roboto,"Helvetica Neue",sans-serif;
 }
 
 .inlineInfo-title{
-
-    border-right: 1px solid white;
 
     float: left;
     width: 19%;
     height: 100%;
     
     color: white;
-    font: 100 75px/82px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 5vw Roboto,"Helvetica Neue",sans-serif;
 }
 .inlineInfo-box{
+
+    border-left: 1px solid white;
 
     float: left;
     width: 80%;
     height: 100%;
 }
 .box-row{
+
+    margin-bottom: 5%;
     
     width: 100%;
     height: 50%;
+
+    overflow: hidden;
 }
 .box-row-card{
 
@@ -159,7 +159,7 @@ i{
     text-align: left;
     
     color: whitesmoke;
-    font: 500 40px/45px "aktiv-grotesk", "Helvetica Neue", "Helvetica", sans-serif;
+    font: 500 3vw "aktiv-grotesk", "Helvetica Neue", "Helvetica", sans-serif;
 }
 .card-text{
     
@@ -170,10 +170,12 @@ i{
 }
 span{
     color: darkgray;
-    font: 100 25px/30px Roboto,"Helvetica Neue",sans-serif;
+    font: 100 1.6vw Roboto,"Helvetica Neue",sans-serif;
 }
 
 .moreInfo{
+
+    margin-top: 10%;
 
     text-align: center;
     width: 100%;

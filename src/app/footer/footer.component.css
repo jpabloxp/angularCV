@@ -4,30 +4,33 @@
 }
 .footer-elements{
     margin: 5%;
-}
-.texto{
-    width: 25%;
-    float: left;
-    font-size: 36px;
+    height: 100%;
+
+    overflow: hidden;
 }
 .miNombre{
-    margin-left: 20%;
-    margin-right: 10%;
-    font: 500 40px/32px Roboto,"Helvetica Neue",sans-serif;
+    margin-right: 3vw;
+    font: 500 2.5vw Roboto,"Helvetica Neue",sans-serif;
     color: grey;
     float: left;
 }
 .miDireccion{
-    margin-left: 10%;
-    margin-right: 10%;
-    font: 500 25px/32px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 2vw Roboto,"Helvetica Neue",sans-serif;
     color: grey;
+    float: right;
+}
+.links{
+    padding-top: 2%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+    height: 100%;
+
     float: left;
 }
 mat-list{
-    margin-top: 1%;
-    margin-left: 7%;
-    margin-right: 7%;
+    height: 100%;
+
     float: left;
 }
 .mat-list-item{
@@ -43,6 +46,7 @@ mat-list{
 .enlace{
     margin-top: 5%;
     margin-bottom: 10%;
+    font: 500 2vw Roboto,"Helvetica Neue",sans-serif;
 }
 a{
     text-decoration: none;
