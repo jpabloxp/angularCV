@@ -10,12 +10,6 @@
     margin-right: 5%;
     overflow: hidden;
 }
-.mat-tab-group{
-    width: 80%;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    float: left;
-}
 .nombre{
     width: 20%;
     float: left;
@@ -26,6 +20,7 @@ p{
     margin: 0%;
 }
 a{
+    min-width: 20%;
     font: 500 2vw Roboto,"Helvetica Neue",sans-serif;
 }
 a:hover{

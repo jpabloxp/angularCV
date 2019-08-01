@@ -202,12 +202,5 @@ span{
     height: 5%;
 }
 a{
-    color: white;
-    text-decoration: none;
-    font-weight: lighter;
-    font: 100 25px/30px Roboto,"Helvetica Neue",sans-serif;
-}
-a:hover{
-    font-weight: lighter;
-    color: lightgrey;
+    color: black;
 }
