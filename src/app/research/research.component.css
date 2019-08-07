@@ -159,6 +159,12 @@ i{
     color: black;
     font: 100 1vw Roboto,"Helvetica Neue",sans-serif;
 }
+.inlineInfo-box-award{
+    margin-left: 5%;
+
+    color: grey;
+    font: 100 1vw Roboto,"Helvetica Neue",sans-serif;
+}
 .box-row{
     
     width: 100%;
